@@ -7,12 +7,8 @@ The Following are the current components added:<br/>
 <table>
   <th>Component Name</th>
   <th>Component Description</th>
-  <td><tr>Hi</tr></td>
-  <td><tr>Hi</tr></td>
-  <td><tr>Hi</tr></td>
-  <td><tr>Hi</tr></td>
-  <td><tr>Hi</tr></td>
-  <td><tr>Hi</tr></td>
-  <td><tr>Hi</tr></td>
-  <td><tr>Hi</tr></td>
+  <tr>
+    <td>Hi</td>
+    <td>Hi</td>
+  </tr>
  </table>
