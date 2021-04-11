@@ -5,7 +5,7 @@ Lets create a repo of easily customisable and plug n play components in react na
 
 The Following are the current components added:<br/>
 <table>
-  <th>component name</th>
+  <th>component name
   <td>
     <tr>
       Hi
@@ -16,4 +16,5 @@ The Following are the current components added:<br/>
       Hi
     </tr>
   </td>
+  </th>
  </table>
