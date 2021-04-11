@@ -7,10 +7,8 @@ The Following are the current components added:<br/>
 <table>
   <td>
   <th>Component Name</th>
-  <tr>Hi</tr>
   </td>
   <td>
   <th>Component Description</th>
-  <tr>Hi</tr>
   </td>
  </table>
