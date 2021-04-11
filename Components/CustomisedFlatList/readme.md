@@ -30,7 +30,7 @@ The CustomisedFlatList is used in the code like this <br/><br/>
   </tr>
   <tr>
     <td><ul><li>hasImage</li></ul></td>
-    <td>This is the image that a user wants to show on the left side of each of the list item. The image path or uri or base64 cana be given in the list data.</td>
+    <td>This is the image that a user wants to show on the left side of each of the list item. The image path or uri or base64 can be given in the list data.</td>
     <td> Boolean</td>
   </tr>
   <tr>
