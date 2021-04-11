@@ -1,5 +1,6 @@
 The CustomisedFlatList is used in the code like this <br/>
-<code style:{background-color:'red'}>
+<div>
+  <code>
   <CustomisedFlatList
             item={simpleFlatListData}
             hasDetail={false}
@@ -11,6 +12,7 @@ The CustomisedFlatList is used in the code like this <br/>
             }}
         />
 </code>
+    </div>
   
 <table>
   <th>Parameter Name</th>
