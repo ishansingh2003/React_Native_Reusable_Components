@@ -16,8 +16,10 @@ The CustomisedFlatList is used in the code like this <br/>
   <th>Parameter Name</th>
   <th>Parameter Description</th>
   <tr>
-    <td><ol><li>Customised Flat List</li></ol></td>
-    <td>This is a wrapper written around react-native Flat List & Section List which supports callback, left image, right arrow in the list item. All of this can be achieved with a single codebase</td>
+    <td><ol><li>item</li></ol></td>
+    <td>This is the data that is required for the list to render. Please see the sample data in data.ts file.</td>
+    <td><ol><li>item</li></ol></td>
+    <td>This is the data that is required for the list to render. Please see the sample data in data.ts file.</td>
   </tr>
  </table>
 
