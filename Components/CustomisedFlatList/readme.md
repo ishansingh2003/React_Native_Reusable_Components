@@ -15,13 +15,16 @@ The CustomisedFlatList is used in the code like this <br/>
 <table>
   <th>Parameter Name</th>
   <th>Parameter Description</th>
+  <th>Parameter Type</th>
   <tr>
     <td><ul><li>item</li></ul></td>
     <td>This is the data that is required for the list to render. Please see the sample data in data.ts file.</td>
+    <td> Boolean</td>
   </tr>
   <tr>
-    <td><ul><li>item</li></ul></td>
-    <td>This is the data that is required for the list to render. Please see the sample data in data.ts file.</td>
+    <td><ul><li>hasDetail</li></ul></td>
+    <td>This is the right arrow that shows in the right side of the each list item, meaning that there is a next screen on the tap/ drill down ui.</td>
+    <td> Boolean</td>
   </tr>
  </table>
 
