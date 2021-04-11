@@ -80,7 +80,7 @@ export const simpleFlatListData = [
 ```
 
 <b>Sampple Screenshots</b>
-https://github.com/ishansingh2003/React_Native_Reusable_Components/blob/main/ScreenShots/CustomisedFlatList/Screenshot_1618146873.png
+<image src="https://github.com/ishansingh2003/React_Native_Reusable_Components/blob/main/ScreenShots/CustomisedFlatList/Screenshot_1618146873.png"/>
 </br>
 </br>
 https://github.com/ishansingh2003/React_Native_Reusable_Components/blob/main/ScreenShots/CustomisedFlatList/Screenshot_1618146876.png
