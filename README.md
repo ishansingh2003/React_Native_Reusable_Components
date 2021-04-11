@@ -5,10 +5,5 @@ Lets create a repo of easily customisable and plug n play components in react na
 
 The Following are the current components added:<br/>
 <table>
-  <td>
-  <th>Component Name</th>
-  </td>
-  <td>
-  <th>Component Description</th>
-  </td>
+  <tr><th>Component Name</th></tr>
  </table>
