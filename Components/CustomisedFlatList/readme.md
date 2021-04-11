@@ -15,6 +15,8 @@ The CustomisedFlatList is used in the code like this <br/>
 <table>
   <th>Parameter Name</th>
   <th>Parameter Description</th>
+  <ol>
+    <li>
   <tr>
     <td><ol><li>item</li></ol></td>
     <td>This is the data that is required for the list to render. Please see the sample data in data.ts file.</td>
@@ -23,5 +25,6 @@ The CustomisedFlatList is used in the code like this <br/>
     <td><ol><li>item</li></ol></td>
     <td>This is the data that is required for the list to render. Please see the sample data in data.ts file.</td>
   </tr>
+    </ol></li>
  </table>
 
