@@ -8,7 +8,7 @@ The Following are the current components added:<br/>
   <th>Component Name</th>
   <th>Component Description</th>
   <tr>
-    <td><ul>Customised Flat List</ul></td>
+    <td><ol><li>Customised Flat List</li></ol></td>
     <td><li>This is a wrapper written around react-native Flat List & Section List which supports callback, left image, right arrow in the list item. All of this can be achieved with a single codebase</li></td>
   </tr>
  </table>
