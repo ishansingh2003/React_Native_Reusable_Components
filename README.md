@@ -9,4 +9,10 @@ The Following are the current components added:<br/>
   <th>Component Description</th>
   <td><tr>Hi</tr></td>
   <td><tr>Hi</tr></td>
+  <td><tr>Hi</tr></td>
+  <td><tr>Hi</tr></td>
+  <td><tr>Hi</tr></td>
+  <td><tr>Hi</tr></td>
+  <td><tr>Hi</tr></td>
+  <td><tr>Hi</tr></td>
  </table>
