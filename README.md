@@ -13,4 +13,4 @@ The Following are the current components added:<br/>
   </tr>
  </table>
 
-Will keep updating this.
+Will keep updating this. Please feel free to download the cookbook react-native app to see how the list is working. Or dive into the code straight away
