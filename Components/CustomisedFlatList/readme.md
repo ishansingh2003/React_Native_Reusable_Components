@@ -26,5 +26,15 @@ The CustomisedFlatList is used in the code like this <br/>
     <td>This is the right arrow that shows in the right side of the each list item, meaning that there is a next screen on the tap/ drill down ui.</td>
     <td> Boolean</td>
   </tr>
+  <tr>
+    <td><ul><li>hasImage</li></ul></td>
+    <td>This is the image that a user wants to show on the left side of each of the list item. The image path or uri or base64 cana be given in the list data.</td>
+    <td> Boolean</td>
+  </tr>
+  <tr>
+    <td><ul><li>callback</li></ul></td>
+    <td>This is the callback fnction available on the each element of the list. The default parameter of this function is the data given in the first parameter in this table.</td>
+    <td> Function</td>
+  </tr>
  </table>
 
