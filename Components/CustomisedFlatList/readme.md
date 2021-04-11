@@ -1,5 +1,6 @@
 <h3>The styling can be updated as per the user's requirement</h3>
-The CustomisedFlatList is used in the code like this <br/>
+
+The CustomisedFlatList is used in the code like this <br/><br/>
 ```typescript
   <CustomisedFlatList
             item={simpleFlatListData}
