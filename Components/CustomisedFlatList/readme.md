@@ -1,5 +1,5 @@
 The CustomisedFlatList is used in the code like this <br/>
-```
+```typescript
   <CustomisedFlatList
             item={simpleFlatListData}
             hasDetail={false}
@@ -45,7 +45,7 @@ The CustomisedFlatList is used in the code like this <br/>
 
 <b>The sample data seems like</b>
 
-```
+```javascript
 export const sectionListData = [
   {
     sectionTitle: 'Section Header 1 Clickable Item',
