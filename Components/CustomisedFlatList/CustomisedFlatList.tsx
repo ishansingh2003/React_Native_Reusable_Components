@@ -6,37 +6,12 @@ import {
   FlatList,
   SectionList,
   View,
-  Image,
-  TouchableHighlight,
+  useColorScheme,
+  StatusBar
 } from 'react-native';
 import { ListItemType, CustomisableListType } from './types';
+import ListItem from './CustomisedListItem';
 
-const ListItem = (props: {
-  title: String;
-  hasImage: boolean;
-  callback: (arg: any) => void;
-  additionalData: any;
-  hasDetail: boolean;
-}) => (
-  <TouchableHighlight
-    onPress={(_evt) => {
-      props.callback(props.additionalData);
-    }}>
-    <View style={styles.listItemView}>
-      <View style={styles.firstCompartment}>
-        {props.hasImage && (
-          <Image source={{ uri: props.additionalData.image }} style={styles.listImageViewIcon} />
-        )}
-        <Text style={styles.listItemTextWithImage}>{props.title}</Text>
-      </View>
-      {props.hasDetail && (
-        <View style={styles.secondCompartment}>
-          <Text style={styles.listItemHasDetailText}>&gt;</Text>
-        </View>
-      )}
-    </View>
-  </TouchableHighlight>
-);
 const SectionHeader = (props: { sectionTitle: String }) => (
   <View style={styles.listItemHeaderView}>
     <Text style={styles.listItemHeaderText}>{props.sectionTitle}</Text>
@@ -46,6 +21,7 @@ const ItemSeparator = () => {
   return <View style={styles.separator} />;
 };
 export default function CustomisedFlatList(props: CustomisableListType) {
+  const isDarkMode = useColorScheme() === 'dark';
   const isSectionList = props.isSectionList ? props.isSectionList : false;
   const hasDetail = props.hasDetail ? props.hasDetail : false;
   const hasImage = props.hasImage ? props.hasImage : false;
@@ -54,16 +30,17 @@ export default function CustomisedFlatList(props: CustomisableListType) {
       data: props.item.map((item: ListItemType) => {
         const listItem = {
           title: (item.sectionTitle) ? item.sectionTitle : '',
-          data: item.data.map(item => item.value)
+          data: item.data.map((item: any) => item.value)
         };
         return listItem;
       }),
       additionalData: props.item.map((item: ListItemType) => {
-        return item.data.map(item => (item.args) ? item.args : {});
+        return item.data.map((item: any) => (item.args) ? item.args : {});
       }),
     };
     return (
       <SafeAreaView style={styles.mainContainer}>
+        <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
         <SectionList
           sections={listData.data}
           keyExtractor={(item, index) => item + index.toString()}
@@ -90,14 +67,15 @@ export default function CustomisedFlatList(props: CustomisableListType) {
     const listData = {
       //flatmap is the es2019 feature update in your tsconfig.json
       data: props.item.flatMap((item: ListItemType) => {
-        return item.data.map(item => item.value);
+        return item.data.map((item: any) => item.value);
       }),
       additionalData: props.item.flatMap((item: ListItemType) => {
-        return item.data.map(item => (item.args) ? item.args : {});
+        return item.data.map((item: any) => (item.args) ? item.args : {});
       }),
     }
     return (
       <SafeAreaView style={styles.mainContainer}>
+        <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
         <FlatList
           data={listData.data}
           renderItem={(item) => {
@@ -124,7 +102,7 @@ export default function CustomisedFlatList(props: CustomisableListType) {
 const styles = StyleSheet.create({
   mainContainer: {
     flex: 1,
-    backgroundColor: 'ffffff',
+    backgroundColor: '#ffffff',
   },
   listItemHeaderView: {
     height: 30,
