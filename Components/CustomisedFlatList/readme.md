@@ -43,3 +43,38 @@ The CustomisedFlatList is used in the code like this <br/>
   </tr>
  </table>
 
+<b>The sample data seems like</b>
+
+```
+export const sectionListData = [
+  {
+    sectionTitle: 'Section Header 1 Clickable Item',
+    data: [
+      { value: "Tap to open https://www.google.com in external browser", args: { uri: 'http://www.gogle.com' } },
+    ],
+  },
+  {
+    sectionTitle: 'Section Header 2 Image Iem',
+    data: [
+      { value: "List data with image", args: { image: "" } },
+    ],
+  },
+  {
+    sectionTitle: 'Section Header 3 Plain',
+    data: [
+      { value: 'Test row 1 - Non clickable.' },
+    ],
+  }
+];
+
+export const simpleFlatListData = [
+  {
+    data: [
+      { value: "List Item 1 clickable", args: { uri: 'http://www.gogle.com' } },
+      { value: "List Item 2 with image", args: { image: '' } },
+      { value: 'List item 3 .' },
+    ],
+
+  }
+];
+```
