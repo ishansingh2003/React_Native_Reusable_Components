@@ -6,14 +6,14 @@ Lets create a repo of easily customisable and plug n play components in react na
 The Following are the current components added:<br/>
 <table>
   <th>component name</th>
-  <tr>
-    <td>
+  <td>
+    <tr>
       Hi
-    </td>
-  </tr>
-  <tr>
-    <td>
+    </tr>
+  </td>
+ <td>
+    <tr>
       Hi
-    </td>
-  </tr>
+    </tr>
+  </td>
  </table>
