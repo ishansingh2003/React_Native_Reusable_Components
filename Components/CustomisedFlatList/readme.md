@@ -36,5 +36,10 @@ The CustomisedFlatList is used in the code like this <br/>
     <td>This is the callback fnction available on the each element of the list. The default parameter of this function is the data given in the first parameter in this table.</td>
     <td> Function</td>
   </tr>
+  <tr>
+    <td><ul><li>isSectionList</li></ul></td>
+    <td>This is the boolean parameter that will decide whether the list is section list or a normal list.</td>
+    <td> Boolean</td>
+  </tr>
  </table>
 
