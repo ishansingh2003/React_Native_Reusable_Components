@@ -1,4 +1,4 @@
-# React_Native_Reusable_Components
+# react-native-reusable-components
 A library of react native reusable and customisable components
 
 Lets create a repo of easily customisable and plug n play components in react native, to help the community
